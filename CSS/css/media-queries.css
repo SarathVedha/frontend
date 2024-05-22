@@ -1,0 +1,32 @@
+.para1 {
+    color: black;
+}
+
+.para2 {
+    color: red;
+}
+
+.para3 {
+    color: green;
+}
+
+.para4 {
+    color: blue;
+}
+
+@media all and (min-width:700px){
+    
+    .container p{
+
+        width: 30%;
+        float: left;
+    };
+
+}
+
+@media print {
+    
+    .container p{
+        color: none;
+    }
+}

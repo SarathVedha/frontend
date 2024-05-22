@@ -1,0 +1,20 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    gap: 20px;
+
+}
+
+.container p{
+
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+}   

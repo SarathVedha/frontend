@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <!-- Best is add css properties in seperate file -->
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+    <!-- We can add css style properties inside the html -->
+    <style type="text/css">
+        /* h1 in first, already added html tag css so it wont take for that */
+        h1{
+            color: red;
+        }
+        h2{
+            color: blue;
+        }
+        h3{
+            color: brown;
+        }
+        p{
+            color: chocolate;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <!-- We can add css properties inside html tag -->
+    <!-- If We add inside html tag it will take css prop -->
+    <h1 style="color: green;text-decoration-line: underline;">Text</h1>
+    <p><i>This</i> is a <b>paragraph</b></p>
+    <p>a<sup>2</sup></p>
+    <p>h<sub>2</sub>0</p>
+    <p>
+        hello, <br>i am SDE.
+        <hr>
+    </p>
+
+    <h2>Text</h2>
+    <p><strong>this is strong</strong></p>
+    <p><em>Do Not</em> try this at home</p>
+    <p id="vedha"><q>every one is my friend</q> -Vedha.</p>
+    <p><blockquote>this is block quote</blockquote></p>
+    <abbr>ISRO</abbr>
+    <address>vedha@gmail.com</address>
+
+    <div>
+        <p><del>$100</del> --- <ins> now $99</ins></p>
+    </div>
+    
+    <hr>
+
+    <h3>List</h3>
+    <h4>un-ordered</h3>
+    <ul>
+        <li class="aws">AWS</li>
+        <li>DOCKER</li>
+        <li>REACT</li>
+    </ul>
+
+    <h4>ordered</h3>
+    <ol type="1" start="1">
+        <li>JAVA</li>
+        <li>SPRING</li>
+        <li>SPRING BOOT</li>
+        <ul>
+            <li>Dependency Injuctions</li>
+            <li>In Build Server</li>
+            <li>Auto Config</li>
+        </ul>
+    </ol>
+
+    <h5>definition</h1>
+    <dl>
+        <dt>JAVA</dt>
+        <dd>Java is open source, WORA - Write Once Run AnyWhere</dd>
+        <dt>SPRING BOOT</dt>
+        <dd>Spring Boot provides out of the box production ready features</dd>
+    </dl>
+    <hr>
+
+    <iframe src="form.html" frameborder="0" width="400" height="550"></iframe>
+    <hr>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29700.029184188417!2d39.17065122944879!3d21.487983795848443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cf1aa7b26dcd%3A0xab0a3c73de2a7433!2sOld%20Jeddah%2C%20Al%20Balad!5e0!3m2!1sen!2ssa!4v1704660953246!5m2!1sen!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <hr>
+
+    <audio src="media/song.mp3" controls preload="metadata">if audio not loaded, format not supported</audio>
+    <hr>
+
+    <video src="media/video.mp4" controls preload="metadata" muted width="300" height="200">if video not loaded, format not supported</video>
+    <hr>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Bn_J_NrqbM4?si=8HYBoBslhuWUoyDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

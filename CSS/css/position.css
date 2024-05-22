@@ -1,0 +1,36 @@
+.bluebox{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: sticky;
+    margin-top: 50px;
+    margin-left: 100px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+.yellowbox{
+
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+h2{
+    font-style: italic;
+}
+
+.news p{
+
+    width: 30%;
+    float: left;
+}
+
+.news p:nth-child(5){
+
+    clear: left;
+}

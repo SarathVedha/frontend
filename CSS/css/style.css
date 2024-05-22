@@ -1,0 +1,64 @@
+/* css will prioritize at html tag speicif at last, 
+if same entry times last one will take, 
+otherwise use !important tag specific that prop */
+
+
+/* Select All Html tags selector */
+*{
+    color: red;
+}
+
+/* perticular html tag selector */
+h4{
+    color: purple;
+}
+
+/* multiple html tag */
+h5,address{
+    color: lawngreen;
+}
+
+/* # for html tag id selector */
+#vedha{
+
+    color: green;
+}
+
+/* . for html class selector */
+.aws{
+
+    color: black;
+}
+
+/* html tag child selector (div-p) div parent and p is child */
+/* div>p{
+    color: black;
+} */
+div p{
+    color: black;
+}
+
+/* html tag descedent child selector (div-p-ins) */
+div ins{
+    color: blue;
+}
+
+/* div p ins{
+    color: green;
+} */
+
+/* !important selector */
+dt{
+    color: aqua;
+    /* third priority */
+}
+
+dt{
+    color: blue !important;
+    /* first priority */
+}
+
+dt{
+    color: black;
+    /* second priority */
+}

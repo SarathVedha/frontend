@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    <div class="regform">
+
+        <h3>Sign Up</h3>
+
+        <form action="signup-result.html" method="get">
+            <div class="input">
+                <label class="txtlabel" for="username">User Name</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div class="input">
+                <label class="txtlabel" for="userpass">User Password</label>
+                <input type="password" name="userpass" id="userpass">
+            </div>
+
+            <div class="input">
+                <label class="txtlabel" for="useremail">User Email</label>
+                <input type="email" name="useremail" id="useremail">
+            </div>
+
+            <div class="rdo">
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <div class="btn">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+
+    </div>
+    <!-- form get submit query string -->
+    <!-- http://127.0.0.1:5500/signup-result.html
+        ?username=sarath.per&email=sarath.perumal%40intellectdesign.com&userpass=12345678&bithyear=2000&dateofbirth=2024-01-07&url=https%3A%2F%2Fhi.com&address=trt&smsalert=on&gender=male -->
+</body>
+</html>

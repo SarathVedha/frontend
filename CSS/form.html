@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="signup-result.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="username">User Name</label>
+            <input type="text" name="username" id="username" placeholder="user name" minlength="4" maxlength="10" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email" required>
+        </div>
+
+        <div>
+            <label for="userpass">User Password</label>
+            <input type="password" name="userpass" id="userpass" placeholder="user password" maxlength="8" minlength="8" required>
+        </div>
+
+        <div>
+            <label for="yearofbirth">Birth Year</label>
+            <input type="number" name="bithyear" id="yearofbirth" placeholder="birth year" required min="1900">
+        </div>
+
+        <div>
+            <label for="dateofbirth">Date</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" min="2000-01-01">
+        </div>
+
+        <div>
+            <input type="url" name="url" id="url" placeholder="url">
+        </div>
+
+        <div>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" name="smsalert" id="smsalert">
+            <label for="smsalert">SMS Alert</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="emailalert" id="emailalert">
+            <label for="emailalert">Email Alert</label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="state">State</label>
+            <select name="state" id="state">
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Andhra Pradesh" label="Andhra"></option>
+                <option value="Kerla">Kerla</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="workcountry">workcountry</label>
+            <select name="workcountry" id="workcountry" multiple>
+                <option value="IN">India</option>
+                <option value="US" label="United Status"></option>
+                <option value="SA">Saudi Arabia</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="teamcolor">Team Color</label>
+            <input type="color" name="teamcolor" id="teamcolor">
+        </div>
+
+        <div>
+            <label for="fileupload">Resume</label>
+            <input type="file" name="fileupload" id="fileupload">
+        </div>
+
+        <input type="hidden" name="hiddenvalue" value="anythingsend">
+
+        <button type="submit">Sign Up</button>
+
+        <button type="reset">Reset</button>
+    </form>
+    <!-- form get submit query string -->
+    <!-- http://127.0.0.1:5500/signup-result.html
+        ?username=sarath.per&email=sarath.perumal%40intellectdesign.com&userpass=12345678&bithyear=2000&dateofbirth=2024-01-07&url=https%3A%2F%2Fhi.com&address=trt&smsalert=on&gender=male -->
+</body>
+</html>

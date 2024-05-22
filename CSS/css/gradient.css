@@ -1,0 +1,25 @@
+.grad1 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /* background-color: green; */
+    background: linear-gradient(red, green, blue);
+
+}
+
+.grad2 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    /* background-color: red; */
+    background: linear-gradient(to left, blue, green, red);
+}
+
+.grad3 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+    background: radial-gradient(red 30%, green, blue);
+}

@@ -1,0 +1,30 @@
+body{
+    font-size: 20px;
+}
+
+.box{
+
+    font-size: 1.5em;
+}
+
+/* em will increase based on parent i.e: body->box */
+.para1{
+
+    font-size: 2em;
+}
+
+/* em will increase based on root */
+/* recomented to use */
+.para2{
+
+    font-size: 1.5rem;
+}
+
+
+/* View Port Width and height will work based browser size */
+.container-box{
+
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+}

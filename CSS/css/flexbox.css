@@ -1,0 +1,53 @@
+body{
+    padding: 5px;
+}
+
+.outer-box{
+
+    background-color: beige;
+    min-height: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 2px solid white;
+
+}
+
+/* .container p{
+
+    width: 100px;
+    margin-left: 10px;
+    float: left;
+} */
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.para1{
+
+    background-color: aqua;
+    flex: 1;
+}
+
+.para2{
+
+    background-color: blueviolet;
+    flex: 1;
+}
+
+.para3{
+
+    background-color: yellowgreen;
+    flex: 1;
+}
